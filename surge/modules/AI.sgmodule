@@ -1,0 +1,47 @@
+#!name = AI 闲聊
+#!desc = 为 ChatGPT、Claude、Gemini 等 AI 对话服务提供代理规则，确保访问顺畅。
+#!category = 闲聊
+#!author = cwmmkky
+#!system = iOS
+
+[Rule]
+# OpenAI / ChatGPT
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,sora.com,PROXY
+
+# Anthropic / Claude
+DOMAIN-SUFFIX,anthropic.com,PROXY
+DOMAIN-SUFFIX,claude.ai,PROXY
+
+# Google Gemini
+DOMAIN-SUFFIX,gemini.google.com,PROXY
+DOMAIN-SUFFIX,generativelanguage.googleapis.com,PROXY
+DOMAIN-SUFFIX,makersuite.google.com,PROXY
+DOMAIN-SUFFIX,aistudio.google.com,PROXY
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai,PROXY
+
+# Mistral
+DOMAIN-SUFFIX,mistral.ai,PROXY
+
+# Cohere
+DOMAIN-SUFFIX,cohere.com,PROXY
+DOMAIN-SUFFIX,cohere.ai,PROXY
+
+# Hugging Face
+DOMAIN-SUFFIX,huggingface.co,PROXY
+
+# Meta AI
+DOMAIN-SUFFIX,meta.ai,PROXY
+
+# xAI / Grok
+DOMAIN-SUFFIX,x.ai,PROXY
+DOMAIN-SUFFIX,grok.com,PROXY
+
+# Microsoft Copilot
+DOMAIN-SUFFIX,copilot.microsoft.com,PROXY
+DOMAIN-SUFFIX,sydney.bing.com,PROXY
